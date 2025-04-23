@@ -1,0 +1,29 @@
+{
+    "name": "zein-api/firebase-notification",
+    "description": "A powerful Firebase notification system by Zein Rawad Ahmad",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.2",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "ZeinApi\\FirebaseNotification\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "kreait/laravel-firebase": "^5.0",
+        "illuminate/support": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZeinApi\\FirebaseNotification\\FirebaseNotificationServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
